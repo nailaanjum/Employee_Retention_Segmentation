@@ -1,0 +1,39 @@
+{
+    "clustering_pipeline_file": "clustering_pipeline.pkl",
+    "pca_pipeline_file": "pca_pipeline.pkl",
+    "feature_columns": [
+        "Age",
+        "Gender",
+        "DistanceFromHome",
+        "JobLevel",
+        "MonthlyIncome",
+        "PerformanceRating",
+        "JobSatisfaction"
+    ],
+    "numeric_ranges": {
+        "Age": [
+            18,
+            60
+        ],
+        "DistanceFromHome": [
+            1,
+            29
+        ],
+        "JobLevel": [
+            1,
+            5
+        ],
+        "MonthlyIncome": [
+            1009,
+            19999
+        ],
+        "PerformanceRating": [
+            3,
+            4
+        ],
+        "JobSatisfaction": [
+            1,
+            4
+        ]
+    }
+}
